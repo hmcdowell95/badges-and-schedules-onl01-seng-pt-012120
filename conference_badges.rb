@@ -24,6 +24,7 @@ end
 
 def printer(attendees)
   batch_badge_creator(attendees).zip(assign_rooms(attendees))
+  st
 end
   
     
