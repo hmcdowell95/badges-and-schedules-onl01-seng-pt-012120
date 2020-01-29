@@ -26,6 +26,7 @@ def printer(attendees)
   batch_badge_creator(attendees).zip(assign_rooms(attendees))
   $stdout.each do |line|
     puts line.chomp
+  end
 end
   
     
